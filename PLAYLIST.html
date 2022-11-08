@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+             background-image: url(playlist1.jpg); 
+            
+        }
+       *{
+        margin: 0;
+        padding: 0;
+       }
+       .playlist{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        
+        
+       }
+       .song{
+        padding: 5px;
+        margin: 10px;
+        margin-left: 65px;
+        background-image: url(back.jpg);
+        border: 2px solid rgb(70, 72, 52);
+        height: 100px;
+        width: 250px;
+        border-radius: 10px;
+        cursor: pointer;
+        
+
+       }
+       .container{
+        width: 50%;
+        min-height: 2vh;
+        padding-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+       }
+       .search-bar{
+        width: 65%;
+        
+        background-color: rgb(226, 199, 130);
+ display: flex;
+ align-items: center;
+ border-radius: 60px;
+ padding: 40px 20px;
+ margin-left: 40px;
+ 
+    }
+    .search-bar  input {
+background: transparent;
+flex: 1; 
+border: 0;
+outline: none;
+padding: 24px 20px;
+font-size: 20px;
+color: #0cac7f;
+    }
+    ::placeholder{
+        color: #ab3b75;
+    }
+.search-bar button img{
+    width: 50%;
+}
+.search-bar button {
+    border: 0;
+    border-radius: 60%;
+    width: 60px;
+    height: 60px;
+    background: #58629b;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+  <div class="container"></div>
+  <form action="https://www.google.com/search" method="get" class="search-bar">  
+    <input type="text" placeholder="search your songs here..." name="q">
+    <button type="submit"><img src="seach.png"></button>
+  </form>
+    <div class="playlist">
+   <div class="song"><h1>URDU</h1></div>
+   
+   <div class="song"><h1>HINDI</h1></div>
+   <div class="song"><h1>PUNJABI</h1></div>
+   <div class="song"><h1>MALYALAM</h1></div>
+   <div class="song"><h1>KASMIRI</h1></div>
+   <div class="song"><h1>TOP 10 SONGS</h1></div>
+   <div class="song"><h1>ARIJIT SINGH</h1></div>
+   <div class="song"><h1>NEHA KAKAAR</h1></div>
+   <div class="song"><H1>ATIF ASLAM</H1></div>
+   <div class="song"><H1>GURU RANDAHAVA</H1></div>
+   <div class="song"><h1>OLD SONGS</h1></div>
+   <div class="song"><H1>PRODCAST</H1></div>
+   <div class="song"><H1>TAMIL</H1></div>
+   <div class="song"><H1>MC SQUARE</H1></div>
+   <div class="song"><H1>HONNEY SINGH</H1></div>
+
+
+    </div>
+   
+</body>
+</html>
